@@ -186,7 +186,7 @@ $('#delete').on('click', function(){
 const remove = function(arr){
   let inputName = $('#inputName').val();
   $('#confirm').empty();
-  let found = true;
+  let found = false;
   for (let i = 0; i < arr.length; i++){
     if (inputName === arr[i].name){
       arr.splice(i , 1);

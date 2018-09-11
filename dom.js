@@ -45,7 +45,8 @@ const $ = function (sel) {
         }    
     }
 
-  
+
+    
   
     const publicAPI = {
       text: text,
@@ -55,6 +56,7 @@ const $ = function (sel) {
       html: html,
       append:append,
       empty:empty
+
     }
   
     return publicAPI;
